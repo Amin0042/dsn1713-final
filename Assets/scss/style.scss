@@ -2,6 +2,9 @@
 $primary: #3b5998;
 $nav-link-color: #fff;
 @import "../../node_modules/bootstrap/scss/bootstrap";
+section {
+  padding: 3rem 0rem;
+}
 .navbar {
   .nav-link,
   .navbar-brand {
@@ -73,4 +76,16 @@ $nav-link-color: #fff;
     transform: translateX(-50%);
     z-index: 2; // above the overlay
   }
+}
+.program-card {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.program-label {
+  position: absolute;
+  left: 10%;
+  bottom: 0.5rem; /* moves it slightly up from bottom, like your ref */
+  margin-left: 0.75rem;
+  padding: 0.35rem 0.75rem;
 }

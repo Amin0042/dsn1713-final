@@ -11859,6 +11859,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+section {
+  padding: 3rem 0rem;
+}
+
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: #fff;
@@ -11919,6 +11923,19 @@ textarea.form-control-lg {
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
+}
+
+.program-card {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.program-label {
+  position: absolute;
+  left: 10%;
+  bottom: 0.5rem; /* moves it slightly up from bottom, like your ref */
+  margin-left: 0.75rem;
+  padding: 0.35rem 0.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
