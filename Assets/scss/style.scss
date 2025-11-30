@@ -2,6 +2,7 @@
 $primary: #3b5998;
 $nav-link-color: #fff;
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./calender.scss";
 section {
   padding: 3rem 0rem;
 }
@@ -21,7 +22,6 @@ section {
 }
 
 #hero {
-  height: 800px;
   background-color: $primary;
   background-image: url("../image/blog-yale-1.jpg");
   background-repeat: no-repeat;
@@ -29,9 +29,6 @@ section {
   background-size: cover;
 }
 
-#hero .d-flex {
-  min-height: 100vh;
-}
 .card img {
   max-width: 50%;
 }
@@ -88,4 +85,15 @@ section {
   bottom: 0.5rem; /* moves it slightly up from bottom, like your ref */
   margin-left: 0.75rem;
   padding: 0.35rem 0.75rem;
+}
+.step-circle {
+  width: 32px;
+
+  height: 32px;
+
+  font-size: 0.8rem;
+}
+
+.step-arrow {
+  font-size: 1.4rem;
 }
